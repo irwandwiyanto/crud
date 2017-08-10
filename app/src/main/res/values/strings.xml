@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <string name="add_new_products">Add New Products</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="product_name">Product Name</string>
+</resources>

@@ -1,0 +1,100 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\369b023f9fc7d93757a4841cb407ba173a83b616\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\eb2584196b872e4e018528658c5d950b19fed487\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\00329a438214638e0e8218443f2de71f8016e47f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\1b26298f7f0029dc1cf42148cae036be4dc3a009\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\19930b6876f0c5d477188f3cea53e2fdc3c45e5d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\64f47985b9b1c5aa2510ca048ab4151bbe8f01f1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\c238b72ccde8a4d3bb7fe68b6a2a5eac7ee016ea\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\ade2c86f120f6867c78ca405cc885e68175f7271\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\1e843154016dc36f51ba8cf8f3314a8130a6c681\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\widyartini\.android\build-cache\d1359548f675875bfe5ec62e6acdef367125001a\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.irwandevelep.crud.MainScreenActivity
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:12:19-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.irwandevelep.crud.AllProductsActivity
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:19:9-57
+	android:name
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:19:19-54
+activity#com.irwandevelep.crud.NewProductActivity
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:20:9-56
+	android:name
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:20:19-53
+activity#com.irwandevelep.crud.EditProductActivity
+ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:21:9-66
+	android:name
+		ADDED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml:21:19-54
+uses-sdk
+INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\widyartini\.android\build-cache\6a4517d7479048fd3f09fd3c98c6c32aa890d6ba\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\369b023f9fc7d93757a4841cb407ba173a83b616\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\eb2584196b872e4e018528658c5d950b19fed487\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\00329a438214638e0e8218443f2de71f8016e47f\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\1b26298f7f0029dc1cf42148cae036be4dc3a009\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\19930b6876f0c5d477188f3cea53e2fdc3c45e5d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\64f47985b9b1c5aa2510ca048ab4151bbe8f01f1\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\c238b72ccde8a4d3bb7fe68b6a2a5eac7ee016ea\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\ade2c86f120f6867c78ca405cc885e68175f7271\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\1e843154016dc36f51ba8cf8f3314a8130a6c681\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\widyartini\.android\build-cache\d1359548f675875bfe5ec62e6acdef367125001a\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\369b023f9fc7d93757a4841cb407ba173a83b616\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\widyartini\AndroidStudioProjects\CRUD\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\369b023f9fc7d93757a4841cb407ba173a83b616\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\eb2584196b872e4e018528658c5d950b19fed487\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\00329a438214638e0e8218443f2de71f8016e47f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\1b26298f7f0029dc1cf42148cae036be4dc3a009\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\19930b6876f0c5d477188f3cea53e2fdc3c45e5d\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\64f47985b9b1c5aa2510ca048ab4151bbe8f01f1\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\c238b72ccde8a4d3bb7fe68b6a2a5eac7ee016ea\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\ade2c86f120f6867c78ca405cc885e68175f7271\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\1e843154016dc36f51ba8cf8f3314a8130a6c681\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\369b023f9fc7d93757a4841cb407ba173a83b616\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\widyartini\.android\build-cache\369b023f9fc7d93757a4841cb407ba173a83b616\output\AndroidManifest.xml:26:9-47
