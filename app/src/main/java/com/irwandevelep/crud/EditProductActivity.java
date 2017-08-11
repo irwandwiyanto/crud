@@ -3,6 +3,7 @@ package com.irwandevelep.crud;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -37,13 +38,13 @@ public class EditProductActivity extends AppCompatActivity {
     JSONParser jsonParser = new JSONParser();
 
     // single product url
-    private static final String url_product_detials = "https://10.0.2.2/api2/get_product_details.php";
+    private static final String url_product_detials = "http://10.0.2.2/api2/get_product_details.php";
 
     // url to update product
-    private static final String url_update_product = "https://10.0.2.2/api2/update_product.php";
+    private static final String url_update_product = "http://10.0.2.2/api2/update_product.php";
 
     // url to delete product
-    private static final String url_delete_product = "https://10.0.2.2/api2/delete_product.php";
+    private static final String url_delete_product = "http://10.0.2.2/api2/delete_product.php";
 
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
@@ -57,6 +58,8 @@ public class EditProductActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit_product);
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
 
         // save button
         btnSave = (Button) findViewById(R.id.btnSave);

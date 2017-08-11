@@ -21,11 +21,9 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-/**
- * Created by Widyartini on 8/10/2017.
- */
 
 public class JSONParser {
+
     static InputStream is = null;
     static JSONObject jObj = null;
     static String json = "";
@@ -66,6 +64,7 @@ public class JSONParser {
                 HttpEntity httpEntity = httpResponse.getEntity();
                 is = httpEntity.getContent();
             }
+
 
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();

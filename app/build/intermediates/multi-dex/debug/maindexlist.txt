@@ -63,6 +63,7 @@ android/support/v4/media/MediaMetadataCompat.class
 android/support/v4/widget/MaterialProgressDrawable.class
 android/support/v4/view/PagerTitleStrip.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21.class
+org/apache/http/annotation/NotThreadSafe.class
 android/support/v4/app/NotificationCompat$Style.class
 android/support/v4/app/ActionBarDrawerToggle.class
 android/support/v4/media/MediaBrowserCompat$ConnectionCallback.class
@@ -72,11 +73,13 @@ android/support/v7/app/ActionBarDrawerToggle$Delegate.class
 android/support/v4/media/RatingCompat$1.class
 android/support/v7/view/menu/MenuAdapter.class
 android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
+org/apache/http/annotation/Immutable.class
 android/support/multidex/MultiDex.class
 android/support/v4/app/FragmentActivity.class
 android/support/v4/media/MediaMetadataCompatApi21.class
 android/support/v4/media/session/MediaSessionCompat$1.class
 android/support/v4/app/FragmentTabHost.class
+org/apache/http/client/params/ClientPNames.class
 android/support/annotation/IntegerRes.class
 android/support/v4/util/ArrayMap.class
 android/support/v4/view/ViewPager$OnPageChangeListener.class
@@ -106,6 +109,7 @@ android/support/v4/app/NotificationCompat$WearableExtender.class
 android/support/v4/view/AbsSavedState.class
 android/support/v4/util/SimpleArrayMap.class
 android/support/v4/app/NotificationCompatApi20$Builder.class
+org/apache/http/annotation/ThreadSafe.class
 android/support/v4/os/AsyncTaskCompat.class
 android/support/v7/widget/LinearLayoutCompat$LayoutParams.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable.class
@@ -119,6 +123,7 @@ android/support/multidex/MultiDex$V4.class
 android/support/v4/view/OnApplyWindowInsetsListener.class
 android/support/v4/app/NotificationCompatJellybean.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
+org/apache/http/client/params/ClientParamBean.class
 android/support/v7/appcompat/R$attr.class
 android/support/v4/view/accessibility/AccessibilityNodeProviderCompat.class
 android/support/v7/app/ActionBar$TabListener.class
@@ -129,6 +134,7 @@ android/support/v4/media/MediaBrowserCompat$SearchCallback.class
 android/support/v4/app/NotificationCompat$BuilderExtender.class
 android/support/v7/view/menu/CascadingMenuPopup$1.class
 android/support/v7/app/ActionBar$LayoutParams.class
+org/apache/http/annotation/GuardedBy.class
 android/support/v4/content/ParallelExecutorCompat.class
 android/support/v4/view/ViewCompatICS.class
 android/support/v4/media/session/PlaybackStateCompat$Builder.class
@@ -173,11 +179,13 @@ android/support/annotation/IntDef.class
 android/support/v7/app/AppCompatActivity.class
 android/support/annotation/BinderThread.class
 android/support/v4/view/ViewCompat$ViewCompatApi23Impl.class
+org/apache/http/impl/conn/tsccm/AbstractConnPool.class
 android/support/v4/media/session/PlaybackStateCompat$MediaKeyAction.class
 android/support/v4/view/ViewCompat$FocusRelativeDirection.class
 android/support/v4/media/MediaMetadataCompat$RatingKey.class
 android/support/v7/view/menu/CascadingMenuPopup$HorizPosition.class
 android/support/v4/view/ViewPager$SavedState.class
+org/apache/http/impl/conn/AbstractPooledConnAdapter.class
 android/support/v4/internal/view/SupportMenuItem.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class
 android/support/v4/app/NotificationCompatApi24.class
@@ -257,6 +265,7 @@ android/support/annotation/Size.class
 android/support/v4/widget/MaterialProgressDrawable$1.class
 android/support/v7/app/ActionBar$DisplayOptions.class
 android/support/v4/app/NotificationCompat$CarExtender.class
+org/apache/http/impl/cookie/BrowserCompatSpec.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
 android/support/v4/view/ViewPager$2.class
 android/support/v4/media/RatingCompat.class
@@ -282,6 +291,7 @@ android/support/annotation/ColorRes.class
 android/support/v7/view/menu/CascadingMenuPopup$CascadingMenuInfo.class
 android/support/v4/media/session/PlaybackStateCompat$CustomAction.class
 android/support/v4/view/ViewPager$ViewPositionComparator.class
+org/apache/http/impl/conn/SingleClientConnManager.class
 android/support/v4/media/MediaBrowserCompat$MediaItem$Flags.class
 android/support/annotation/WorkerThread.class
 android/support/multidex/ZipUtil.class
@@ -289,6 +299,7 @@ android/support/v4/net/ConnectivityManagerCompat$ConnectivityManagerCompatImpl.c
 android/support/v4/media/MediaBrowserCompatApi21.class
 android/support/v7/app/ActionBarActivity.class
 android/support/annotation/FractionRes.class
+org/apache/http/impl/conn/tsccm/BasicPoolEntry.class
 android/support/annotation/PluralsRes.class
 android/support/v4/media/TransportPerformer.class
 android/support/v4/media/session/MediaSessionCompat$Token.class
@@ -309,6 +320,7 @@ android/support/v7/widget/ActionMenuView$LayoutParams.class
 android/support/v4/app/NotificationCompat$BigTextStyle.class
 android/support/v4/media/MediaDescriptionCompat.class
 android/support/v4/media/session/MediaSessionCompat$QueueItem.class
+org/apache/http/client/protocol/ClientContextConfigurer.class
 android/support/v4/view/MenuItemCompat$OnActionExpandListener.class
 android/support/v4/app/ServiceCompat$ServiceCompatImpl.class
 android/support/v4/media/TransportMediator.class
@@ -323,6 +335,7 @@ android/support/v4/media/VolumeProviderCompat$1.class
 android/support/v4/view/VelocityTrackerCompat.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi24.class
 android/support/annotation/CallSuper.class
+org/apache/http/impl/conn/tsccm/RefQueueHandler.class
 android/support/v4/view/GravityCompat.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi23.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserServiceCallbackImpl.class
@@ -351,6 +364,7 @@ android/support/v4/app/RemoteInputCompatBase.class
 android/support/v4/view/ViewPager$MyAccessibilityDelegate.class
 android/support/v4/app/NotificationCompat$MessagingStyle.class
 android/support/v4/media/MediaBrowserCompat$SearchResultReceiver.class
+org/apache/http/impl/conn/tsccm/RefQueueWorker.class
 android/support/annotation/StringDef.class
 android/support/v4/media/RatingCompatKitkat.class
 android/support/v4/media/VolumeProviderCompat$Callback.class

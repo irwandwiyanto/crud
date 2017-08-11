@@ -29,7 +29,7 @@ public class NewProductActivity extends AppCompatActivity {
     EditText inputDesc;
 
     // url to create new product
-    private static String url_create_product = "https://10.0.2.2/api2/create_product.php";
+    private static String url_create_product = "http://10.0.2.2/api2/create_product.php";
 
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
@@ -71,7 +71,7 @@ public class NewProductActivity extends AppCompatActivity {
             super.onPreExecute();
             pDialog = new ProgressDialog(NewProductActivity.this);
             pDialog.setMessage("Creating Product..");
-            pDialog.setIndeterminate(false);
+            pDialog.setIndeterminate(true);
             pDialog.setCancelable(true);
             pDialog.show();
         }

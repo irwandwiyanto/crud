@@ -5,9 +5,11 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -22,12 +24,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class AllProductsActivity extends ListActivity {
-
+public class AllProductsActivity extends AppCompatActivity {
 
     // Progress Dialog
     private ProgressDialog pDialog;
-
+    SimpleAdapter adapter;
+    ListView lv;
     // Creating JSON Parser object
     JSONParser jParser = new JSONParser();
 
@@ -45,23 +47,26 @@ public class AllProductsActivity extends ListActivity {
     // products JSONArray
     JSONArray products = null;
 
+    public ListView list;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.all_products);
 
         // Hashmap for ListView
-        productsList = new ArrayList<HashMap<String, String>>();
-
+        productsList = new ArrayList<>();
+        lv = (ListView) findViewById(R.id.list);
         // Loading products in Background Thread
         new LoadAllProducts().execute();
 
         // Get listview
-        ListView lv = getListView();
+        //ListView lv = getListView();
 
         // on seleting single product
         // launching Edit Product Screen
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /**
+        list.setOnItemClickListener(new OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
@@ -79,7 +84,7 @@ public class AllProductsActivity extends ListActivity {
                 // starting new activity and expecting some response back
                 startActivityForResult(in, 100);
             }
-        });
+        }); **/
 
     }
 
@@ -122,7 +127,7 @@ public class AllProductsActivity extends ListActivity {
          * */
         protected String doInBackground(String... args) {
             // Building Parameters
-            ArrayList<NameValuePair> params = new ArrayList<NameValuePair>();
+            List<NameValuePair> params = new ArrayList<NameValuePair>();
             // getting JSON string from URL
             JSONObject json = jParser.makeHttpRequest(url_all_products, "GET", params);
 
@@ -190,7 +195,7 @@ public class AllProductsActivity extends ListActivity {
                             TAG_NAME},
                             new int[] { R.id.pid, R.id.name });
                     // updating listview
-                    setListAdapter(adapter);
+                    lv.setAdapter(adapter);
                 }
             });
 
