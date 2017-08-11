@@ -43,6 +43,7 @@ public class AllProductsActivity extends AppCompatActivity {
     private static final String TAG_PRODUCTS = "products";
     private static final String TAG_PID = "pid";
     private static final String TAG_NAME = "name";
+    private static final String TAG_PRICE = "price";
 
     // products JSONArray
     JSONArray products = null;
@@ -65,8 +66,8 @@ public class AllProductsActivity extends AppCompatActivity {
 
         // on seleting single product
         // launching Edit Product Screen
-        /**
-        list.setOnItemClickListener(new OnItemClickListener() {
+
+        lv.setOnItemClickListener(new OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
@@ -84,7 +85,7 @@ public class AllProductsActivity extends AppCompatActivity {
                 // starting new activity and expecting some response back
                 startActivityForResult(in, 100);
             }
-        }); **/
+        });
 
     }
 
@@ -150,6 +151,7 @@ public class AllProductsActivity extends AppCompatActivity {
                         // Storing each json item in variable
                         String id = c.getString(TAG_PID);
                         String name = c.getString(TAG_NAME);
+                        String price = c.getString(TAG_PRICE);
 
                         // creating new HashMap
                         HashMap<String, String> map = new HashMap<String, String>();
@@ -157,6 +159,7 @@ public class AllProductsActivity extends AppCompatActivity {
                         // adding each child node to HashMap key => value
                         map.put(TAG_PID, id);
                         map.put(TAG_NAME, name);
+                        map.put(TAG_PRICE, price);
 
                         // adding HashList to ArrayList
                         productsList.add(map);
@@ -192,8 +195,8 @@ public class AllProductsActivity extends AppCompatActivity {
                     ListAdapter adapter = new SimpleAdapter(
                             AllProductsActivity.this, productsList,
                             R.layout.list_item, new String[] { TAG_PID,
-                            TAG_NAME},
-                            new int[] { R.id.pid, R.id.name });
+                            TAG_NAME, TAG_PRICE},
+                            new int[] { R.id.pid, R.id.name, R.id.price });
                     // updating listview
                     lv.setAdapter(adapter);
                 }

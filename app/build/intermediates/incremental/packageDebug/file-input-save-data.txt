@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Aug 11 15:10:51 ICT 2017
+#Fri Aug 11 16:46:14 ICT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\widyartini\\AndroidStudioProjects\\CRUD\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\notification_bg_low.xml

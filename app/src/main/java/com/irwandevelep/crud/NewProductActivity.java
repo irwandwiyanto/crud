@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -104,6 +105,7 @@ public class NewProductActivity extends AppCompatActivity {
 
                 if (success == 1) {
                     // successfully created product
+                    //
                     Intent i = new Intent(getApplicationContext(), AllProductsActivity.class);
                     startActivity(i);
 
@@ -125,6 +127,7 @@ public class NewProductActivity extends AppCompatActivity {
         protected void onPostExecute(String file_url) {
             // dismiss the dialog once done
             pDialog.dismiss();
+            Toast.makeText(NewProductActivity.this, "Berhasil insert", Toast.LENGTH_LONG).show();
         }
 
     }
